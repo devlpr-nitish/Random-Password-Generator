@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: rgb(32, 121, 111);
+    width: 100%;
+    height: 100vh;
+    padding: 10vh;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: white;
+    margin-left: 10vh;
+    margin-bottom: 6vh;
+    font-weight: 500;
+}
+
+.container h1 span {
+    color: rgb(225, 6, 112);
+    border-bottom: 3px solid rgb(225, 6, 112);
+}
+
+.display {
+    width: 30%;
+    /* height: 40%; */
+    margin-left: 10vh;
+    margin-bottom: 2vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+    border-radius: 5px;
+}
+
+.display input {
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.display i {
+    cursor: pointer;
+}
+
+button {
+    margin-left: 10vh;
+    margin-top: 1.2vh;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, rgb(17, 31, 93) 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    color: white;
+}
+
+button i {
+    margin-right: .5rem;
+}
+
+button:hover {
+    background-position: left bottom;
+    color: white;
+}
+
+
+
+#copied {
+    color: white;
+    margin-left: 10vh;
+    margin-top: 1.2vh;
+    display: none;
+}
