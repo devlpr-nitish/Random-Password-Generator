@@ -1,3 +1,3 @@
-### Random Password Generator ### <br>
+### Random Password Generator ###
 
 #### Using HTML CSS AND JAVASCRIPT ####
